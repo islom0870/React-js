@@ -1,0 +1,13 @@
+.gallery {
+  padding: 120px 20px;
+}
+.images {
+  display: flex;
+  column-gap: 40px;
+  padding: 32px 36px 0;
+}
+.images > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

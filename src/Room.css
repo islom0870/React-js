@@ -1,0 +1,15 @@
+.roomSection {
+  width: 1440px;
+  padding-bottom: 37px;
+  flex-shrink: 0;
+  background: #4a2b33;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.room {
+  width: 1328px;
+  height: 644px;
+  flex-shrink: 0;
+  margin-top: 22.5px;
+}

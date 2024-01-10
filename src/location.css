@@ -1,0 +1,33 @@
+.location {
+  background: #aa9e54;
+  display: flex;
+  justify-content: center;
+  padding: 119px 0;
+}
+.block > div > p {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36.4px; /* 145.6% */
+}
+.block > div > b {
+  display: block;
+  margin-bottom: 15px;
+  color: #fff;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21.6px; /* 127.059% */
+}
+.block {
+  display: flex;
+  gap: 81px;
+}
+.block div {
+  width: 389.328px;
+}

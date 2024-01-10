@@ -1,0 +1,57 @@
+.menuStyle {
+  background: #e9e9e3;
+  padding: 120px 56px;
+  display: flex;
+  justify-content: space-between;
+}
+span {
+  color: #6f6f64;
+  font-family: Azeret Mono;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21.6px; /* 120% */
+}
+.menuStyle p {
+  margin: 0;
+
+  width: 558px;
+  color: #6f6f64;
+  font-family: "Inter";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: start;
+  line-height: 44.8px; /* 140% */
+}
+button {
+  width: 531px;
+  height: 58px;
+  flex-shrink: 0;
+  color: #6f6f64;
+
+  text-align: center;
+  font-family: "Inter";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+  cursor: pointer;
+}
+button:nth-of-type(1) {
+  margin-top: 74px;
+  border: 2px solid #6f6f64;
+  background: #6f6f64;
+  color: #fff;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+}
+.buttonGroup {
+  display: flex;
+  flex-direction: column;
+  row-gap: 13px;
+}

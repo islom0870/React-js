@@ -1,7 +1,7 @@
 import "./gallery.css";
-import vine from "../src/image1/IMAGE (4).png";
-import ice from "../src/image1/IMAGE (5).png";
-import room from "../src/image1/IMAGE (6).png";
+import vine from "../../assets/image1/gallery1.png";
+import ice from "../../assets/image1/gallery2.png";
+import room from "../../assets/image1/gallery3.png";
 function Gallery() {
   return (
     <div className="gallery">

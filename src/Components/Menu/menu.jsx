@@ -1,5 +1,5 @@
 import "./menu.css";
-import mn from "../src/image1/IMAGE (3).png";
+import mn from "../../assets/image1/menuCafe.png";
 function Menu() {
   return (
     <div className="menuStyle">

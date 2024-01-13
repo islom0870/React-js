@@ -1,9 +1,8 @@
-import instm from "../src/image1/IMAGE.png";
+import instm from "../../assets/image1/instgrm.png";
+import logo from "../../assets/image1/logo.png";
+import mail from "../../assets/image1/mail.png";
+import face from "../../assets/image1/facebook.png";
 
-import logo from "../src/image1/IMAGE (2).png";
-
-import mail from "../src/image1/Vector (1).png";
-import face from "../src/image1/Vector (2).png";
 import "./Navbar.css";
 
 function Nav() {
@@ -26,14 +25,20 @@ function Nav() {
           </li>
         </ul>
         <img src={logo} className="logo" alt="logo" />
-        <div className="Social">
-          <img src={mail} className="App-logo" alt="logo" />
-          <img src={face} className="App-logo" alt="logo" />
-          <img src={instm} className="App-logo" alt="logo" />
-        </div>
+        <SocialLinks></SocialLinks>
       </header>
     </div>
   );
 }
 
+function SocialLinks() {
+  return (
+    <div className="Social">
+      <img src={mail} className="App-logo" alt="logo" />
+      <img src={face} className="App-logo" alt="logo" />
+      <img src={instm} className="App-logo" alt="logo" />
+    </div>
+  );
+}
+// export default SocialLinks;
 export default Nav;

@@ -1,4 +1,4 @@
-import room from "../src/image1/IMAGE (1).png";
+import room from "../../assets/image1/room.png";
 
 import "./Room.css";
 

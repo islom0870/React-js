@@ -11,3 +11,13 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+@media (max-width: 738px) {
+  .images {
+    flex-direction: column;
+    row-gap: 41px;
+  }
+  .images > div {
+    row-gap: 41px;
+  }
+}

@@ -31,3 +31,8 @@
 .block div {
   width: 389.328px;
 }
+@media (max-width: 1305px) {
+  .block {
+    flex-direction: column;
+  }
+}

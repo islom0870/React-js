@@ -12,12 +12,12 @@ export default class App extends Component {
     return (
       <div>
         <Nav></Nav>
-        {/* <Room></Room>
+        <Room></Room>
         <About></About>
         <Menu></Menu>
         <Location></Location>
         <Gallery></Gallery>
-        <Footer></Footer> */}
+        <Footer></Footer>
       </div>
     );
   }
